@@ -1,27 +1,48 @@
-# React + TypeScript + Vite
+# React/TypeScript Project - Markdown Supported Note With Tags
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Functions:
 
-Currently, two official plugins are available:
+- create notes with title, tags, body
+- filter note by title and tags
+- edit tags
+- edit note content
+- delete note
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots
+homepage:
+![image](https://github.com/ho1225/react-markdown/assets/56968144/30643e4d-f564-45be-8ed3-c8a7dbaed252)  
+filter note by title and tags:
+![image](https://github.com/ho1225/react-markdown/assets/56968144/8dfdde9f-1ce5-4747-ab60-9ce37f02fd40)  
+create note:
+![image](https://github.com/ho1225/react-markdown/assets/56968144/bd537a24-0aa0-47b2-bb20-6909afbaa6f5)  
+edit tags:
+![image](https://github.com/ho1225/react-markdown/assets/56968144/b73a814c-a644-44d9-a67e-7b6519ffcfbd)  
+note content:
+![image](https://github.com/ho1225/react-markdown/assets/56968144/a7cbae13-409b-4aeb-9007-779b9d760cd9)  
+ 
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## Installation
+
+Clone this repository to your local machine using:
+```bash
+git clone https://github.com/ho1225/react-markdown.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Navigate to the project directory:
+```bash
+cd react-markdown
+```
+
+Install the required packages:
+```bash
+npm install
+```
+## Usage
+Run the development server:
+```bash
+npm run dev
+```
+Open your browser and go to http://localhost:5173 to use the app.
